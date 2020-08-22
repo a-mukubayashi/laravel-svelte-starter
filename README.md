@@ -34,6 +34,6 @@ see: http://localhost/api/sample/hello
 
 ## svelte start
 ```
-docker exec -it laravel-svelte-client bash -c "cd /opt/src/app && yarn build"
+docker exec -it laravel-svelte-client bash -c "cd /opt/src/app && yarn build -w"
 ```
 see: http://localhost/#/
